@@ -393,8 +393,8 @@ def cohen_kappa(y1, y2, categories):
 # ─────────────────────────────────────────────
 
 if __name__ == '__main__':
-    INPUT  = '/Example_EIT Transcription and Scoring Sheet.xlsx'
-    OUTPUT = '/AutoEIT_Scored_Output.xlsx'
+    INPUT  = '/home/renu/Downloads/autoeit-gsoc-2026/Example_EIT Transcription and Scoring Sheet.xlsx'
+    OUTPUT = '/home/renu/Downloads/autoeit-gsoc-2026/AutoEIT_Scored_Output.xlsx'
 
     print("Loading workbook and scoring transcriptions...")
     results = process_workbook(INPUT, OUTPUT)
